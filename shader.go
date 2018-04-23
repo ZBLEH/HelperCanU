@@ -11,6 +11,7 @@ import (
 type ShaderID uint32
 type ProgramID uint32
 type BufferID uint32
+type TextureID uint32
 
 type Shader struct {
 	id               ProgramID
